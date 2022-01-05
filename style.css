@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.title{
+    color: darkgreen;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+}
+.map img{
+    width: 450px;
+}
+.button{
+    padding: 10px 30px;
+    background-color: crimson;
+    border-radius: 8px;
+    border: none;
+}
+.button:hover{
+    background-color: green;
+    color: ghostwhite;
+    cursor:pointer;
+}
+.second-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.dhaka{
+    width: 250px;
+    border: 3px grey solid;
+    box-shadow: 4px 4px 12px grey;
+    border-radius: 5px;
+}
+.div-image img{
+    width: 100%;
+}
+.all-divisions{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.bottom-section{
+    padding: 10px;
+}
+.details{
+    background-color: springgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.details:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
